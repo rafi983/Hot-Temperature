@@ -11,7 +11,6 @@ const searchCity = async () => {
 };
 
 const getCityWeather = (cityTemp) => {
-  console.log(cityTemp);
   const searchField = document.getElementById("search-field");
   const weatherStatus = document.querySelector(".weather-status");
 
