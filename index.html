@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Temperature Hot</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background: url(images/bg-image.jpg) no-repeat;
+        background-size: cover;
+        height: 100vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="col-md-6 m-auto py-5">
+        <div class="input-group mb-3">
+          <input
+            id="search-field"
+            type="text"
+            class="form-control"
+            placeholder="Enter a location for Weather ..."
+          />
+          <div class="input-group-append">
+            <button type="button" class="btn btn-danger" onclick="searchCity()">
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="weather-status text-white text-center"></div>
+    </div>
+
+    <script src="./js/temp.js"></script>
+  </body>
+</html>
