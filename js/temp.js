@@ -1,3 +1,5 @@
+// Start Of Js
+
 const apiKey = "Your_API_Key";
 
 const searchCity = async () => {
@@ -45,3 +47,5 @@ const getCityWeather = (cityTemp) => {
     searchField.value = "";
   }
 };
+
+// End Of Js
